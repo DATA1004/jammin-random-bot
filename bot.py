@@ -40,4 +40,4 @@ async def on_ready():
     print('봇이 준비되었습니다.')
 
 # 봇 실행하기
-bot.run('MTExMzMxNzc3Mjc4NTYzNTM4OQ.GNViZa.BwxG5qnvz7o2Du56QJgxYSrV5o05eWgXMmPcdY')
+TOKEN = os.environ.get('TOKEN')
