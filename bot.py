@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import random
 import requests
+import os
 
 bot = commands.Bot(command_prefix='!')
 
@@ -40,4 +41,4 @@ async def on_ready():
     print('봇이 준비되었습니다.')
 
 # 봇 실행하기
-bot.run(os.environ.get('TOKEN'))
+bot.run(os.environ('TOKEN'))
